@@ -1,25 +1,47 @@
-import logo from './logo.svg';
+import shapeItems from "./shapes.json"
+import {useState} from 'react';
 import './App.css';
 
+function Card({shape}) {
+  return <div className="card">
+    <img src={shape.src} />
+  </div>
+}
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [shapes, setShapes] = useState([]);
+
+  const start =() => {
+    const shapeList = [...shapeItems, ...shapeItems]
+    .sort(() => Math.random() - .5)
+    .map(item => ({...item, id: Math.random() }))
+
+    setShapes(shapeList)
+  } 
+
+  return <>
+    <h1>Memory Game</h1>
+    {
+      shapes.length ? <>
+        <button className="reset">
+        
+        </button>
+
+        <div className="game">
+        {
+          shapes.map((shape, key) => {
+            return <Card 
+              key = {key}
+              shape = {shape}
+            />
+          })
+        }
+        </div>
+      </> : <button className="start" onClick={start}>
+        Start
+        </button>
+    }
+  </>;
 }
 
 export default App;

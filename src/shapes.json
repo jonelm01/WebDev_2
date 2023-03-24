@@ -1,0 +1,21 @@
+[
+    {
+        "source" : "shapes/square.svg", "matched" : false
+    },
+    {
+        "source" : "shapes/circle.svg", "matched" : false
+    },
+    {
+        "source" : "shapes/triangle.svg", "matched" : false
+    },
+    {
+        "source" : "shapes/pentagon.svg", "matched" : false
+    },
+    {
+        "source" : "shapes/hexagon.svg", "matched" : false
+    },
+    {
+        "source" : "shapes/octagon.svg", "matched" : false
+
+    }
+]

@@ -1,0 +1,68 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: larger;
+  color: aquamarine;
+  margin-top: 15%;
+  margin-bottom: auto;
+}
+
+.game{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+
+button{
+  border: none;
+  color: azure;
+  background-color: black;
+  cursor: pointer;
+}
+
+.card {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.card img, .card svg{
+  width: 90%;
+  position: absolute;
+  pointer-events: none;
+  backface-visibility: hidden;
+  
+}
+
+.card svg {
+  width: 100px;
+  height: 100px;
+  opacity: .3;
+}
+
+.card.matched {
+  transform: rotateY(180deg);
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+
+

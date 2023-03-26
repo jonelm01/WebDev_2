@@ -3,7 +3,7 @@ import './App.css';
 import shapeItems from "./shapes.json"
 
 function Card({shape, flipped, select}) {
-  const cardSel = (e) => {
+  const cardSel = (temp) => {
     select(shape)
   }
 
@@ -28,6 +28,9 @@ function App() {
   const [shapeB, setShapeB] = useState(null);
 
   const select = (shape) => {
+    if(shape === shapeA || shape === shapeB || shape.matched){
+      return;
+    }
     shapeA ? setShapeB(shape) : setShapeA(shape)
   }
 
@@ -61,14 +64,30 @@ function App() {
     }
 
   }, [shapeA, shapeB])
+
+  const restart = () => {
+    setShapes(prevShapes => {
+      return prevShapes.map(item => {
+        if (item.matched) {
+          return {...item, matched: false}
+        }
+        return item
+      })
+    })
+    setShapeA(null)
+    setShapeB(null)
+    setTimeout(() => {
+      start()}, 500
+      )
+  }
  
 
   return <>
     <h1>Memory Game</h1>
     {
       shapes.length ? <>
-        <button className="reset">
-        
+        <button className="restart" onClick={restart}> 
+          Restart
         </button>
 
         <div className="game">
@@ -84,8 +103,9 @@ function App() {
         }
         </div>
       </> : <button className="start" onClick={start}>
-        Start
+        Start!
         </button>
+        
     }
   </>;
 }

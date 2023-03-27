@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" viewBox="0 0 720 720" version="1.1" inkscape:version="0.91 r13725">
+  <g id="layer1" transform="translate(0 -332.36)">
+    <path id="path2832" style="fill:#000000" d="m351.38 303.64 93.328 67.807-35.648 109.71-115.36 1e-13 -35.648-109.71 93.328-67.807z" transform="matrix(3.3752 0 0 3.3752 -825.98 -631.64)"/>
+    <path id="path2834" style="fill:#ff0000" d="m360 393.2 194.68 599.17h-389.36l194.68-599.17z"/>
+    <path id="path2836" style="fill:#0000ff" d="m675 622.06-509.68 370.3-120.32-370.3l630-8e-13z"/>
+    <path id="path2838" style="fill:#00ff00" d="m45 622.06 509.68 370.3 120.32-370.3-630-9e-13z"/>
+    <path id="path2840" style="fill:#ffffff" d="m285.64 622.06-45.958 141.44 120.32 87.417 120.32-87.417-45.958-141.44h-148.72z"/>
+    <path id="path2842" style="fill:#ffff00" d="m554.68 992.36-79.38-225.22-115.3 83.78 194.68 141.44z"/>
+    <path id="path2844" style="fill:#ff00ff" d="m165.32 992.36 75.77-227.83 118.91 86.39-194.68 141.44z"/>
+    <path id="path2846" style="fill:#00ffff" d="m45 622.06 194.68 141.44 45.958-141.44-240.64-8e-13z"/>
+    <path id="path2848" style="fill:#00ffff" d="m475.3 767.14 199.7-145.09-240.64-2e-13 40.943 145.09z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>pentagon rgb mix fail</dc:title>
+        <dc:date>2011-05-15T18:43:25</dc:date>
+        <dc:description>I couldn't figure out how to make a perfect rgb mix like I did with the others. This is the best I could do. It's still cool though just because of it's pentagonality!</dc:description>
+        <dc:source>https://openclipart.org/detail/138901/pentagon-rgb-mix-fail-by-10binary</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>10binary</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>fail</rdf:li>
+            <rdf:li>mix</rdf:li>
+            <rdf:li>pentagon</rdf:li>
+            <rdf:li>rgb</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

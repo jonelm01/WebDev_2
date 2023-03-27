@@ -1,20 +1,20 @@
 [
     {
-        "src" : "/shapes/square.svg", "matched" : false
+        "src" : "./shapes/square.svg", "matched" : false
     },
     {
-        "src" : "/shapes/circle.svg", "matched" : false
+        "src" : "./shapes/circle.svg", "matched" : false
     },
     {
-        "src" : "/shapes/triangle.svg", "matched" : false
+        "src" : "./shapes/triangle.svg", "matched" : false
     },
     {
-        "src" : "/shapes/pentagon.svg", "matched" : false
+        "src" : "./shapes/pentagon.svg", "matched" : false
     },
     {
-        "src" : "/shapes/hexagon.svg", "matched" : false
+        "src" : "./shapes/hexagon.svg", "matched" : false
     },
     {
-        "src" : "/shapes/octagon.svg", "matched" : false
+        "src" : "./shapes/octagon.svg", "matched" : false
     }
 ]

@@ -1,3 +1,12 @@
+https://jonelm01.github.io/WebDev_2/. <- Link to website
+Jonel Muncan
+23719303
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
